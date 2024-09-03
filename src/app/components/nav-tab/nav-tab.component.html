@@ -1,0 +1,5 @@
+<div class="d-flex justify-content-center">
+  <a mat-button *ngFor="let tab of tabs" [routerLink]="tab.routeName">
+    {{ tab.label }}
+  </a>
+</div>
